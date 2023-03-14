@@ -10,8 +10,8 @@ We will then integrate AKS deployment with Azure Devops Pipelines so that any ch
 
 2. Create your AKS Cluster 
 
-`az group create --name rg-aks-01 --location uksouth` 
-`az aks create - rg-aks-01  -n aks-cluster-01 \ ` 
-`--enable-managed-identity --node-count 1 \ ` 
-`--enable-addons monitoring --enable-msi-auth-for-monitoring ` 
-` --generate-ssh-keys`
+`az group create --name rg-aks-01 --location uksouth`  
+`az aks create - rg-aks-01  -n aks-cluster-01 \ `  
+`--enable-managed-identity --node-count 1 \ `  
+`--enable-addons monitoring --enable-msi-auth-for-monitoring `  
+` --generate-ssh-keys`  
