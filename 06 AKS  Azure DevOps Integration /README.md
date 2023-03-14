@@ -4,6 +4,9 @@ In this section we will extend the **Azure Voting App** deployment example in [A
 We will then integrate AKS deployment with Azure Devops Pipelines so that any change in the code or image Dockerfile will trigger the build and deploy stages to the cluster again. 
 
 ---
+
+## Deploying the Voting App to a new AKS Cluster
+
 1. Fork the Voting App repo. (This is required because we will later create a Azure DevOps **resource connection** to our code repository in GitHub. Will work with any other code repository too.)
 
 `git clone https://github.com/ozgurgulerx/azure-voting-app-redis-test01`
@@ -31,5 +34,16 @@ Enable kubectl...
 4. Confirm the deployment and get the service IP to test the deployment.  
 5. Confirm the page is being loaded successfully using service's public IP address.  
 
+---
 
+## Create a new Project in Azure DevOps 
+
+
+---
+## Create an Azure DevOps Pipeline to integrate the deployment with Azure DevOps 
+
+
+---
+
+## Test & Confirm successul Operation
 
