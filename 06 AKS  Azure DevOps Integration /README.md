@@ -29,7 +29,7 @@ Enable kubectl...
 `kubectl create -f azure-vote-all-in-one-redis.yaml`  
 
 4. Confirm the deployment and get the service IP to test the deployment.  
+5. Confirm the page is being loaded successfully using service's public IP address.  
 
-![Image](../../../../Downloads/2023-03-14%2010.21.57%20AM.png)
 
-<img src="../../../../Downloads/2023-03-14%2010.21.57%20AM.png" width="800" />
+
