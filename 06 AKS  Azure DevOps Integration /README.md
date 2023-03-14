@@ -29,4 +29,5 @@ Enable kubectl...
 `kubectl create -f azure-vote-all-in-one-redis.yaml`  
 
 4. Confirm the deployment and get the service IP to test the deployment.
-![](../../../../Downloads/2023-03-14%2010.21.57%20AM.png)
+![Image](../../../../Downloads/2023-03-14%2010.21.57%20AM.png)
+
