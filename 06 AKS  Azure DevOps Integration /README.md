@@ -32,4 +32,4 @@ Enable kubectl...
 
 ![Image](../../../../Downloads/2023-03-14%2010.21.57%20AM.png)
 
-<img src="../../../../Downloads/2023-03-14%2010.21.57%20AM.png" />
+<img src="../../../../Downloads/2023-03-14%2010.21.57%20AM.png" width="800" />
