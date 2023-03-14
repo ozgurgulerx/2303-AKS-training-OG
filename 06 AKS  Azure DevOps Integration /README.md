@@ -28,6 +28,8 @@ Enable kubectl...
 3. Deploy the app onto your AKS cluster.  
 `kubectl create -f azure-vote-all-in-one-redis.yaml`  
 
-4. Confirm the deployment and get the service IP to test the deployment.
+4. Confirm the deployment and get the service IP to test the deployment.  
+
 ![Image](../../../../Downloads/2023-03-14%2010.21.57%20AM.png)
 
+<img src="../../../../Downloads/2023-03-14%2010.21.57%20AM.png" />
