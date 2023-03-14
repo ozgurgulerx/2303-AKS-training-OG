@@ -10,8 +10,23 @@ We will then integrate AKS deployment with Azure Devops Pipelines so that any ch
 
 2. Create your AKS Cluster 
 
-`az group create --name rg-aks-01 --location uksouth`  
-`az aks create - rg-aks-01  -n aks-cluster-01 \ `  
+Create a new resource-group which is a container to envelope a subgroup of your Azure resources.  
+rg-name must be unique.  
+
+`az group create --name rg-aks-01-ozg --location uksouth`  
+
+Create a new AKS cluster...
+`az aks create -g rg-aks-01-ozg  -n aks-cluster-0314 \ `  
 `--enable-managed-identity --node-count 1 \ `  
-`--enable-addons monitoring --enable-msi-auth-for-monitoring `  
+`--enable-addons monitoring --enable-msi-auth-for-monitoring \`  
 ` --generate-ssh-keys`  
+
+Enable kubectl...
+`az aks get-credentials --resource-group rg-aks-01-ozg  --name aks-cluster-0314`  
+
+
+3. Deploy the app onto your AKS cluster.  
+`kubectl create -f azure-vote-all-in-one-redis.yaml`  
+
+4. Confirm the deployment and get the service IP to test the deployment.
+![](../../../../Downloads/2023-03-14%2010.21.57%20AM.png)
